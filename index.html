@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="PayCalculator AU privacy and support information.">
+  <link rel="icon" type="image/png" href="app-icon.png">
   <title>PayCalculator AU — Privacy & Support</title>
   <style>
     :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    body { margin: 0; background: #f3f7f7; color: #15333a; }
-    header { padding: 56px 24px 42px; color: white; background: linear-gradient(135deg,#092e3c,#087465); }
+    body { margin: 0; background: #F5F4FA; color: #242038; }
+    header { padding: 56px 24px 42px; color: white; background: linear-gradient(135deg,#292442,#5546C6); }
     header, main { padding-left: max(24px, calc((100% - 760px) / 2)); padding-right: max(24px, calc((100% - 760px) / 2)); }
+    .brand-icon { width: 64px; height: 64px; border-radius: 15px; display: block; margin-bottom: 20px; }
     h1 { margin: 0 0 10px; font-size: clamp(2rem, 6vw, 3.3rem); }
-    header p { margin: 0; color: #d3efea; font-size: 1.1rem; }
+    header p { margin: 0; color: #EEEBFC; font-size: 1.1rem; }
     main { padding-top: 28px; padding-bottom: 56px; }
     nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 24px; }
-    a { color: #087465; }
+    a { color: #5546C6; }
     nav a { font-weight: 650; }
     .language { float: right; border: 1px solid #9ab4b2; border-radius: 999px; padding: 8px 13px; background: transparent; color: inherit; cursor: pointer; }
     section { margin: 18px 0; padding: 24px; border-radius: 18px; background: white; box-shadow: 0 4px 20px #1233  ; }
@@ -25,9 +27,9 @@
     footer { padding: 20px 24px 32px; text-align: center; color: #52686d; }
     body[data-language="en"] .zh, body[data-language="zh"] .en { display: none; }
     @media (prefers-color-scheme: dark) {
-      body { background: #101c20; color: #e1efec; }
-      section { background: #1b2b30; box-shadow: none; }
-      a { color: #72d8b0; }
+      body { background: #14131C; color: #e1efec; }
+      section { background: #292442; box-shadow: none; }
+      a { color: #B9B0FF; }
       .muted, footer { color: #aec4c2; }
     }
   </style>
@@ -35,6 +37,7 @@
 <body data-language="en">
   <header>
     <button class="language" type="button" aria-label="Switch language" onclick="switchLanguage()">中文</button>
+    <img class="brand-icon" src="app-icon.png" alt="" width="64" height="64">
     <h1>PayCalculator AU</h1>
     <p class="en">Australian salary and tax estimates</p>
     <p class="zh">澳大利亚工资与税务估算</p>
@@ -45,8 +48,8 @@
       <a href="#support"><span class="en">Support</span><span class="zh">支持</span></a>
     </nav>
     <section id="privacy">
-      <p class="muted en">Privacy Policy · Last updated 9 October 2026</p>
-      <p class="muted zh">隐私政策 · 更新日期：2026年10月9日</p>
+      <p class="muted en">Privacy Policy · Last updated 10 October 2026</p>
+      <p class="muted zh">隐私政策 · 更新日期：2026年10月10日</p>
       <h2 class="en">Privacy Policy</h2>
       <h2 class="zh">隐私政策</h2>
       <p class="en">PayCalculator AU provides estimates for Australian salary, income tax, Medicare levy, Medicare levy surcharge, superannuation and study loan repayments.</p>
@@ -54,15 +57,15 @@
 
       <h3 class="en">Information used by the app</h3>
       <h3 class="zh">应用使用的信息</h3>
-      <p class="en">Salary, household income, insurance-day and study-loan amounts that you enter are used on your device for the current calculation. The app does not send or save these values. They are cleared when you close the app. Your selected display language is stored locally until you change it or remove the app.</p>
-      <p class="zh">你输入的工资、家庭收入、保险天数和学习贷款金额只在设备上用于当前计算。应用不会发送或保存这些数值；关闭应用后输入会清除。所选界面语言会保存在设备上，直到你更改语言或删除应用。</p>
+      <p class="en">PayCalculator AU does not require an account. Salary, household income, insurance-day, deduction and study-loan amounts you enter are calculated on your device and are not sent to an app-operated server. Unsaved values are used for the current session. Tapping Save stores your named scenario and calculation settings locally on your device. Language, colour theme and appearance preferences are also stored locally.</p>
+      <p class="zh">PayCalculator AU 无需注册账户。你输入的工资、家庭收入、保险天数、税务扣除和助学贷款金额在设备上计算，不会发送到应用运营的服务器。未保存的输入仅用于当前会话。点击“保存”会把命名方案及计算设置保存在本机；语言、主题颜色和显示模式偏好也保存在本机。</p>
       <p class="en">The app currently uses no account, advertising, analytics or third-party data-collection SDKs. If you open an ATO link, the ATO website opens outside the app and handles visit information under its own policies.</p>
       <p class="zh">应用目前不使用账户、广告、分析或第三方数据收集 SDK。若你打开 ATO 链接，ATO 网站会在应用外打开，并按其自身政策处理访问信息。</p>
 
       <h3 class="en">Retention and deletion</h3>
       <h3 class="zh">保存与删除</h3>
-      <p class="en">Calculation inputs and results are not saved by the app, so there is no account or server copy to retrieve or delete. You can change the saved language in the app; removing the app removes its locally stored preference.</p>
-      <p class="zh">应用不会保存计算输入或结果，因此没有可供调取或删除的账户数据或服务器副本。你可以在应用中更改已保存的语言；删除应用会移除本地保存的语言偏好。</p>
+      <p class="en">You can load, rename, duplicate and delete saved scenarios in Saved scenarios. Reset clears the current calculation while keeping saved scenarios and appearance preferences. Removing the app removes its local data. Device backups may contain app data according to your system backup settings; the app does not control those backups. There is no account or app-operated server copy. Sharing opens the system share sheet: you choose the destination and whether to send the result summary. Shared results are handled under the receiving app or service’s privacy policy.</p>
+      <p class="zh">你可在“保存与比较”中加载、改名、复制及删除已保存方案。“重置计算”会清空当前计算，但保留已保存方案和外观偏好。删除应用会移除本机数据；系统设备备份可能包含应用数据，取决于系统备份设置，应用不控制这些备份。没有账户或应用运营的服务器副本。“分享”会打开系统分享面板，由你选择接收方及是否发送结果摘要；分享后的结果按接收应用或服务的隐私政策处理。</p>
 
       <h3 class="en">This website</h3>
       <h3 class="zh">本网站</h3>
@@ -83,6 +86,20 @@
       <p class="en">For questions, feedback or support with PayCalculator AU, email:</p>
       <p class="zh">如有关于 PayCalculator AU 的问题、意见或需要支持，请发送邮件至：</p>
       <p><a href="mailto:tmt@goldman-stanley.com">tmt@goldman-stanley.com</a></p>
+      <p class="muted en">Support information for version 1.2.</p>
+      <p class="muted zh">以下支持信息适用于 1.2 版本。</p>
+      <h3 class="en">Using the calculator</h3><h3 class="zh">使用计算器</h3>
+      <p class="en">Enter gross pay, choose the pay period and financial year, and use the Includes super switch to specify whether employer super is part of the entered amount. Super Guarantee uses the selected year’s minimum rate; you can choose a higher employer rate. Extra leave and Bonus are optional. A bonus entered for a single month is counted once in the annual estimate.</p>
+      <p class="zh">输入税前金额，选择工资周期和财年，并用“包含 Super”开关指定金额是否已包含雇主 Super。Super Guarantee 默认使用所选财年的最低比例，可调高至雇主实际比例。额外年假和奖金为可选项；选择某月一次性奖金时，全年仅计入一次。</p>
+      <h3 class="en">HELP and tax deductions</h3><h3 class="zh">HELP 与税务扣除</h3>
+      <p class="en">HELP / HECS can sync with Salary, including the financial year, pay period and repayment switch. An optional remaining loan balance caps the estimated annual repayment; it does not forecast indexation or stop employer withholding. Tax deduction settings update Salary and HELP calculations. The standard work deduction replaces itemised work expenses; other allowable deductions are separate. Only enter deductions you are eligible to claim.</p>
+      <p class="zh">HELP / HECS 可与工资页同步财年、工资周期和还款开关。可选的贷款余额用于限制年度还款估算，不预测贷款指数化，也不会自动停止雇主代扣。税务扣除设置会更新工资和 HELP 计算；标准工作费用扣除与逐项工作费用扣除二选一，其他合资格扣除单独填写。仅输入你符合申报资格的扣除。</p>
+      <h3 class="en">Saving, sharing and troubleshooting</h3><h3 class="zh">保存、分享与问题反馈</h3>
+      <p class="en">Use Save to keep a scenario locally, Compare to compare scenarios, and Share to open the system share sheet. Tap Done above the number keyboard to finish editing. If a result looks wrong, include your app version, iOS version, financial year, pay period and the settings used when contacting support. Use example amounts where possible and do not send tax file numbers, bank details or other sensitive identifiers.</p>
+      <p class="zh">点击“保存”将方案留在本机，“比较”用于比较方案，“分享”打开系统分享面板。点击数字键盘上方的“完成”结束输入。如结果异常，请联系支持并说明应用版本、iOS 版本、财年、工资周期和所用设置。尽量使用示例金额，请勿发送税号、银行资料或其他敏感身份信息。</p>
+      <p class="en">If you email support, the information you choose to send is handled to respond to your request. This is separate from the calculator’s on-device data.</p>
+      <p class="zh">如你发送支持邮件，你主动提供的信息会用于回复该请求；这与计算器保存在设备上的数据分开处理。</p>
+
     </section>
   </main>
   <footer>
