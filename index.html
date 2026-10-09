@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PayCalculator AU privacy and support information.">
+  <title>PayCalculator AU — Privacy & Support</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f3f7f7; color: #15333a; }
+    header { padding: 56px 24px 42px; color: white; background: linear-gradient(135deg,#092e3c,#087465); }
+    header, main { padding-left: max(24px, calc((100% - 760px) / 2)); padding-right: max(24px, calc((100% - 760px) / 2)); }
+    h1 { margin: 0 0 10px; font-size: clamp(2rem, 6vw, 3.3rem); }
+    header p { margin: 0; color: #d3efea; font-size: 1.1rem; }
+    main { padding-top: 28px; padding-bottom: 56px; }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 24px; }
+    a { color: #087465; }
+    nav a { font-weight: 650; }
+    .language { float: right; border: 1px solid #9ab4b2; border-radius: 999px; padding: 8px 13px; background: transparent; color: inherit; cursor: pointer; }
+    section { margin: 18px 0; padding: 24px; border-radius: 18px; background: white; box-shadow: 0 4px 20px #1233  ; }
+    h2 { margin-top: 0; }
+    h3 { margin-bottom: 6px; }
+    p, li { line-height: 1.65; }
+    .muted { color: #52686d; font-size: .94rem; }
+    footer { padding: 20px 24px 32px; text-align: center; color: #52686d; }
+    body[data-language="en"] .zh, body[data-language="zh"] .en { display: none; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101c20; color: #e1efec; }
+      section { background: #1b2b30; box-shadow: none; }
+      a { color: #72d8b0; }
+      .muted, footer { color: #aec4c2; }
+    }
+  </style>
+</head>
+<body data-language="en">
+  <header>
+    <button class="language" type="button" aria-label="Switch language" onclick="switchLanguage()">中文</button>
+    <h1>PayCalculator AU</h1>
+    <p class="en">Australian salary and tax estimates</p>
+    <p class="zh">澳大利亚工资与税务估算</p>
+  </header>
+  <main>
+    <nav aria-label="Site navigation">
+      <a href="#privacy"><span class="en">Privacy</span><span class="zh">隐私政策</span></a>
+      <a href="#support"><span class="en">Support</span><span class="zh">支持</span></a>
+    </nav>
+    <section id="privacy">
+      <p class="muted en">Privacy Policy · Last updated 9 October 2026</p>
+      <p class="muted zh">隐私政策 · 更新日期：2026年10月9日</p>
+      <h2 class="en">Privacy Policy</h2>
+      <h2 class="zh">隐私政策</h2>
+      <p class="en">PayCalculator AU provides estimates for Australian salary, income tax, Medicare levy, Medicare levy surcharge, superannuation and study loan repayments.</p>
+      <p class="zh">PayCalculator AU 用于估算澳大利亚工资、所得税、Medicare levy、Medicare levy surcharge、Super 和学习贷款还款。</p>
+
+      <h3 class="en">Information used by the app</h3>
+      <h3 class="zh">应用使用的信息</h3>
+      <p class="en">Salary, household income, insurance-day and study-loan amounts that you enter are used on your device for the current calculation. The app does not send or save these values. They are cleared when you close the app. Your selected display language is stored locally until you change it or remove the app.</p>
+      <p class="zh">你输入的工资、家庭收入、保险天数和学习贷款金额只在设备上用于当前计算。应用不会发送或保存这些数值；关闭应用后输入会清除。所选界面语言会保存在设备上，直到你更改语言或删除应用。</p>
+      <p class="en">The app currently uses no account, advertising, analytics or third-party data-collection SDKs. If you open an ATO link, the ATO website opens outside the app and handles visit information under its own policies.</p>
+      <p class="zh">应用目前不使用账户、广告、分析或第三方数据收集 SDK。若你打开 ATO 链接，ATO 网站会在应用外打开，并按其自身政策处理访问信息。</p>
+
+      <h3 class="en">Retention and deletion</h3>
+      <h3 class="zh">保存与删除</h3>
+      <p class="en">Calculation inputs and results are not saved by the app, so there is no account or server copy to retrieve or delete. You can change the saved language in the app; removing the app removes its locally stored preference.</p>
+      <p class="zh">应用不会保存计算输入或结果，因此没有可供调取或删除的账户数据或服务器副本。你可以在应用中更改已保存的语言；删除应用会移除本地保存的语言偏好。</p>
+
+      <h3 class="en">This website</h3>
+      <h3 class="zh">本网站</h3>
+      <p class="en">This information site is hosted with GitHub Pages. GitHub may process technical request data, including IP addresses, for service security. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a>.</p>
+      <p class="zh">本信息网站由 GitHub Pages 托管。GitHub 可能为保障服务安全处理包括 IP 地址在内的技术访问数据。详情见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub 隐私声明</a>。</p>
+
+      <h3 class="en">General information</h3>
+      <h3 class="zh">一般说明</h3>
+      <p class="en">Calculations are estimates for general information only, not tax or financial advice. Rates and personal eligibility may change. Confirm your circumstances with the Australian Taxation Office (ATO) or a registered tax professional.</p>
+      <p class="zh">计算结果仅供一般信息参考，不构成税务或财务建议。税率和个人资格可能变化，请向澳大利亚税务局（ATO）或注册税务专业人士核实。</p>
+      <p class="en">If the app's data practices change, this policy will be updated.</p>
+      <p class="zh">如果应用的数据处理方式发生变化，本政策会相应更新。</p>
+    </section>
+
+    <section id="support">
+      <h2 class="en">Support</h2>
+      <h2 class="zh">联系支持</h2>
+      <p class="en">For questions, feedback or support with PayCalculator AU, email:</p>
+      <p class="zh">如有关于 PayCalculator AU 的问题、意见或需要支持，请发送邮件至：</p>
+      <p><a href="mailto:tmt@goldman-stanley.com">tmt@goldman-stanley.com</a></p>
+    </section>
+  </main>
+  <footer>
+    <span class="en">PayCalculator AU · Australia</span>
+    <span class="zh">PayCalculator AU · 澳大利亚</span>
+  </footer>
+  <script>
+    function switchLanguage() {
+      const page = document.body;
+      const next = page.dataset.language === "en" ? "zh" : "en";
+      page.dataset.language = next;
+      document.documentElement.lang = next;
+      document.querySelector(".language").textContent = next === "en" ? "中文" : "English";
+    }
+  </script>
+</body>
+</html>
