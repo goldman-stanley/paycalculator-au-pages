@@ -1,6 +1,6 @@
 # PayCalculator AU — Release history / 更新日志
 
-Last updated / 更新日期: 2026-10-10
+Last updated / 更新日期: 2026-10-11
 
 The 1.3 entry is in development, not released. / 1.3 为开发中，尚未发布。
 
@@ -17,6 +17,11 @@ A clearer view of your pay, your time and your earnings benchmark.
 - The salary example uses ABS national mean weekly earnings, annualised. An indicative national base-pay percentile includes financial-year reference periods and linked methodology. / 示例工资采用 ABS 全国平均周薪年化参考值；基本工资百分位估算附财年对应统计期及来源、计算说明。
 - Consistent branding and toolbar options across tabs. Theme and colour settings group standard colours and Big 4 palettes, with light, dark and system appearance. / 统一各 tab 的品牌及工具栏；主题与颜色菜单分组标准配色、Big 4 配色及浅色、深色、跟随系统模式。
 - In-app links to release history, email feedback and signed-in GitHub feature requests or bug reports. / 应用内加入更新日志、邮件留言及登录 GitHub 提交需求或问题的入口。
+- A direct “How it’s calculated” view reconciles annual cash pay, purchased leave, bonus, super sacrifice, taxable income, deductions, tax and HELP. / 结果卡新增“怎么算的”，展示年度现金工资、购买年假、奖金、额外 Super、应税收入、扣除、税费与 HELP 的计算路径。
+- Compact active-setting chips link to bonus, leave, HELP, extra super, deductions and Medicare/family settings. / 用简洁标签显示影响结果的已启用设置，点击可进入奖金、年假、HELP、额外 Super、扣除与医保／家庭设置。
+- Work Value includes same-scale hourly comparisons and a scheduled-hours breakdown, with unpaid overtime shown separately. Annual records follow revised schedules consistently. / 工作回报新增同一比例尺的时薪对比与排班工时分解，另列无额外计薪加班；调整排班后年度记录按同一工时口径计算。
+- Saving a daily check-in shows effective hourly value, paid idle-time value and planned goal allocation; actual savings remain separately confirmed. / 保存每日记录后显示有效时薪、有薪摸鱼时间价值与计划目标分配；实际储蓄仍需另行确认。
+- Tax source and applicability notes are consistent across calculator views. Holiday source links are grouped and deduplicated with the bundled dataset date, instead of repeating in every holiday card. / 计算页面统一税务来源与适用范围说明；公共假期来源集中去重并显示本地资料日期，去掉每张假期卡片重复的来源链接。
 
 These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.
 以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。
