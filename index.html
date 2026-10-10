@@ -46,6 +46,7 @@
     <nav aria-label="Site navigation">
       <a href="#privacy"><span class="en">Privacy</span><span class="zh">隐私政策</span></a>
       <a href="#support"><span class="en">Support</span><span class="zh">支持</span></a>
+      <a id="changelog-link" href="changelog.html"><span class="en">What's new</span><span class="zh">更新日志</span></a>
     </nav>
     <section id="privacy">
       <p class="muted en">Privacy Policy · Last updated 10 October 2026</p>
@@ -86,6 +87,9 @@
       <p class="en">For questions, feedback or support with PayCalculator AU, email:</p>
       <p class="zh">如有关于 PayCalculator AU 的问题、意见或需要支持，请发送邮件至：</p>
       <p><a href="mailto:tmt@goldman-stanley.com">tmt@goldman-stanley.com</a></p>
+      <p><a href="changelog.html#feedback"><span class="en">Release history & feedback</span><span class="zh">更新日志与需求反馈</span></a> · <a href="https://github.com/goldman-stanley/paycalculator-au-pages/issues/new/choose"><span class="en">Comment on GitHub (sign-in required)</span><span class="zh">登录 GitHub 留言</span></a></p>
+      <p class="muted en">GitHub suggestions and replies are public. Use email for a private conversation.</p>
+      <p class="muted zh">GitHub 建议及回复公开可见；私下沟通请使用邮件。</p>
       <p class="muted en">Support information for version 1.2.</p>
       <p class="muted zh">以下支持信息适用于 1.2 版本。</p>
       <h3 class="en">Using the calculator</h3><h3 class="zh">使用计算器</h3>
@@ -112,6 +116,7 @@
       const next = page.dataset.language === "en" ? "zh" : "en";
       page.dataset.language = next;
       document.documentElement.lang = next;
+      document.getElementById("changelog-link").href = "changelog.html?lang=" + next;
       document.querySelector(".language").textContent = next === "en" ? "中文" : "English";
     }
   </script>
