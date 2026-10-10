@@ -1,0 +1,26 @@
+name: Feature request / 新需求
+description: Suggest an improvement to PayCalculator AU / 提出功能建议
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve PayCalculator AU. We can reply in this thread. Posts are public; use tmt@goldman-stanley.com for private feedback.
+        感谢你帮助改进 PayCalculator AU。我们可在这里回复。留言公开可见；私下沟通请发邮件至 tmt@goldman-stanley.com。
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion / 你的建议
+      description: What would you like the app to do? / 希望增加或改进什么？
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: How would it help? / 有什么使用场景？
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App version (optional) / 应用版本（可选）
