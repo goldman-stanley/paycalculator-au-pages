@@ -1,0 +1,27 @@
+name: Bug report / 问题反馈
+description: Report something that is not working as expected / 报告使用问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is public. Please use example values and do not include tax file numbers, bank details or other sensitive identifiers. We can reply in this thread.
+        此记录公开可见。请尽量使用示例金额，不要填写税号、银行资料等敏感身份信息。我们可在这里回复。
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened? / 出现了什么问题？
+      description: Describe the result and what you expected. / 请说明实际情况与期望结果。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 重现步骤
+      description: Include the tab, financial year and relevant switches. / 可说明页面、财年及相关开关。
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App and iOS versions / 应用及 iOS 版本
