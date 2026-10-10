@@ -14,7 +14,7 @@ A clearer view of your pay, your time and your earnings benchmark.
 - Daily idle-time and unpaid-overtime records, with optional local reminders at the end of the working day. / 每日记录摸鱼及无额外计薪加班，可选下班本地提醒。
 - National and state public holidays follow your work state and financial year. Deducts only overlapping scheduled hours; weekday substitutes count and weekend dates are not deducted twice. / 按工作所在州及财年自动套用全国和本州公共假期，仅扣除排班重合时间，工作日补休计入，周末日期不重复扣除。
 - Browse public holidays across all states and supported financial years, with regional applicability, source links and estimated future dates clearly identified. / 浏览各州及全部支持财年的公共假期，标明地区适用范围、官方来源和预计未来日期。
-- The salary example uses ABS national mean weekly earnings, annualised. An indicative national base-pay percentile includes financial-year reference periods and linked methodology. / 示例工资采用 ABS 全国平均周薪年化参考值；基本工资百分位估算附财年对应统计期及来源、计算说明。
+- The salary example uses ABS national median weekly employee earnings, annualised and excluding employer super. An indicative base-pay percentile includes FY reference periods and linked methodology. / 示例工资采用 ABS 全国雇员周薪中位数年化参考值，明确不含雇主 Super；基本工资百分位估算附财年参考期及来源说明。
 - Consistent branding and toolbar options across tabs. Theme and colour settings group standard colours and Big 4 palettes, with light, dark and system appearance. / 统一各 tab 的品牌及工具栏；主题与颜色菜单分组标准配色、Big 4 配色及浅色、深色、跟随系统模式。
 - In-app links to release history, email feedback and signed-in GitHub feature requests or bug reports. / 应用内加入更新日志、邮件留言及登录 GitHub 提交需求或问题的入口。
 - A direct “How it’s calculated” view reconciles annual cash pay, purchased leave, bonus, super sacrifice, taxable income, deductions, tax and HELP. / 结果卡新增“怎么算的”，展示年度现金工资、购买年假、奖金、额外 Super、应税收入、扣除、税费与 HELP 的计算路径。
@@ -25,6 +25,7 @@ A clearer view of your pay, your time and your earnings benchmark.
 - National base-pay rankings show an approximate top/bottom employee percentage alongside the original percentile, preserving bounds and the statistical comparison population. / 全国基本工资排名同时显示直观的雇员前／后百分比与原百分位，保留估算边界和统计比较范围。
 - Tax details add taxable-income and take-home cash waterfall charts without replacing the table. Charts scroll horizontally and offer an enlarged view with zoom and landscape support. / 税务明细新增应税收入与现金到手双路径瀑布图，保留原有表格；支持横向滚动、全屏放大、缩放及横屏查看。
 - Work Value uses consistent “working day” terminology in English and Chinese. / 工作回报统一使用中英文“工作日／working day”表述。
+- The result card explicitly shows an annual after-tax assessment estimate including tax-return deductions. Monthly, fortnightly and weekly amounts are annual averages, not PAYG payslip calculations; deduction impacts are distinguished from refunds. / 结果卡明确标为含报税扣除的年度税后估算；月、双周及周金额标为全年平均，区别于工资单 PAYG 实发，扣除影响也不等同于实际退税额。
 
 These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.
 以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。
