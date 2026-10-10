@@ -22,6 +22,9 @@ A clearer view of your pay, your time and your earnings benchmark.
 - Work Value includes same-scale hourly comparisons and a scheduled-hours breakdown, with unpaid overtime shown separately. Annual records follow revised schedules consistently. / 工作回报新增同一比例尺的时薪对比与排班工时分解，另列无额外计薪加班；调整排班后年度记录按同一工时口径计算。
 - Saving a daily check-in shows effective hourly value, paid idle-time value and planned goal allocation; actual savings remain separately confirmed. / 保存每日记录后显示有效时薪、有薪摸鱼时间价值与计划目标分配；实际储蓄仍需另行确认。
 - Tax source and applicability notes are consistent across calculator views. Holiday source links are grouped and deduplicated with the bundled dataset date, instead of repeating in every holiday card. / 计算页面统一税务来源与适用范围说明；公共假期来源集中去重并显示本地资料日期，去掉每张假期卡片重复的来源链接。
+- National base-pay rankings show an approximate top/bottom employee percentage alongside the original percentile, preserving bounds and the statistical comparison population. / 全国基本工资排名同时显示直观的雇员前／后百分比与原百分位，保留估算边界和统计比较范围。
+- Tax details add taxable-income and take-home cash waterfall charts without replacing the table. Charts scroll horizontally and offer an enlarged view with zoom and landscape support. / 税务明细新增应税收入与现金到手双路径瀑布图，保留原有表格；支持横向滚动、全屏放大、缩放及横屏查看。
+- Work Value uses consistent “working day” terminology in English and Chinese. / 工作回报统一使用中英文“工作日／working day”表述。
 
 These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.
 以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。
