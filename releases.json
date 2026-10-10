@@ -43,13 +43,13 @@
         }
       ],
       "note_en": "These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.",
-      "note_zh": "以上为 1.3 开发中的变更，不属于已提交的 1.2 构建；正式分发后会更新可用状态。"
+      "note_zh": "以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。"
     },
     {
       "version": "1.2",
       "status": "submitted",
       "status_en": "Submitted build",
-      "status_zh": "已提交构建",
+      "status_zh": "已提交版本",
       "summary_en": "Salary scenarios, deductions and a more consistent everyday calculator.",
       "summary_zh": "工资方案、税务扣除及更一致的日常计算体验。",
       "features": [
@@ -75,13 +75,13 @@
         }
       ],
       "note_en": "Listed as a submitted build, not confirmation of App Store availability. This entry summarises the version's features; it is not a claim that every feature first appeared in 1.2.",
-      "note_zh": "此处表示已提交构建，不代表已在 App Store 上架；本条为版本功能概要，不表示所有功能均首次加入 1.2。"
+      "note_zh": "此处表示已提交版本，不代表已在 App Store 上架；本条为版本功能概要，不表示所有功能均首次加入 1.2。"
     },
     {
       "version": "1.1.1",
       "status": "testing",
       "status_en": "Historical test build",
-      "status_zh": "历史测试构建",
+      "status_zh": "历史测试版本",
       "summary_en": "Quicker salary adjustment and clearer tax-year tables.",
       "summary_zh": "更快捷的工资调整与财年税率表。",
       "features": [
@@ -103,9 +103,9 @@
       "version": "1.1",
       "status": "testing",
       "status_en": "Initial test build",
-      "status_zh": "初始测试构建",
+      "status_zh": "初始测试版本",
       "summary_en": "The first TestFlight calculator build.",
-      "summary_zh": "首个 TestFlight 计算器构建。",
+      "summary_zh": "首个 TestFlight 计算器版本。",
       "features": [
         {
           "en": "Australian salary, tax, Medicare, super and HELP / HECS estimates across supported financial years.",

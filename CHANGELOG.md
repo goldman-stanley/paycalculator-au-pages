@@ -19,9 +19,9 @@ A clearer view of your pay, your time and your earnings benchmark.
 - In-app links to release history, email feedback and signed-in GitHub feature requests or bug reports. / 应用内加入更新日志、邮件留言及登录 GitHub 提交需求或问题的入口。
 
 These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.
-以上为 1.3 开发中的变更，不属于已提交的 1.2 构建；正式分发后会更新可用状态。
+以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。
 
-## 1.2 — Submitted build / 已提交构建
+## 1.2 — Submitted build / 已提交版本
 
 Salary scenarios, deductions and a more consistent everyday calculator.
 工资方案、税务扣除及更一致的日常计算体验。
@@ -33,9 +33,9 @@ Salary scenarios, deductions and a more consistent everyday calculator.
 - Refreshed app branding, Purple and Green themes, bilingual labels and a keyboard Done control. / 更新应用品牌、Purple 与 Green 主题、双语标签及数字键盘完成按钮。
 
 Listed as a submitted build, not confirmation of App Store availability. This entry summarises the version's features; it is not a claim that every feature first appeared in 1.2.
-此处表示已提交构建，不代表已在 App Store 上架；本条为版本功能概要，不表示所有功能均首次加入 1.2。
+此处表示已提交版本，不代表已在 App Store 上架；本条为版本功能概要，不表示所有功能均首次加入 1.2。
 
-## 1.1.1 — Historical test build / 历史测试构建
+## 1.1.1 — Historical test build / 历史测试版本
 
 Quicker salary adjustment and clearer tax-year tables.
 更快捷的工资调整与财年税率表。
@@ -44,10 +44,10 @@ Quicker salary adjustment and clearer tax-year tables.
 - Updated tax-table thresholds when switching financial years. / 切换财年时更新税率表的收入门槛。
 - Updated logo and colour integration. / 更新 logo 与应用配色融合。
 
-## 1.1 — Initial test build / 初始测试构建
+## 1.1 — Initial test build / 初始测试版本
 
 The first TestFlight calculator build.
-首个 TestFlight 计算器构建。
+首个 TestFlight 计算器版本。
 
 - Australian salary, tax, Medicare, super and HELP / HECS estimates across supported financial years. / 支持不同财年的澳大利亚工资、所得税、Medicare、Super 及 HELP / HECS 估算。
 - Purchased annual leave and bonus settings, including a one-off bonus paid in a selected month. / 购买额外年假及奖金设置，支持指定月份一次性奖金。
