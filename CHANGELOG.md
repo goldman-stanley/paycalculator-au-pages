@@ -1,10 +1,22 @@
 # PayCalculator AU — Release history / 更新日志
 
-Last updated / 更新日期: 2026-10-11
+Last updated / 更新日期: 2026-10-14
 
-The 1.3 entry is in development, not released. / 1.3 为开发中，尚未发布。
+Release availability is listed for each version. / 每个版本分别标明分发状态。
 
-## 1.3 — In development / 开发中
+## 1.3.1 — Uploaded to TestFlight / 已上传 TestFlight
+
+English and Chinese localisation fixes. No new features or changes to calculation rules.
+修复中英文界面本地化问题，无新增功能或计算规则变更。
+
+- Language changes now refresh reusable labels, pay-period selectors, state names and source cards consistently. / 切换语言时同步刷新周期选择、州名、来源卡片等组件，避免残留上一种语言。
+- Date pickers and displayed dates follow the selected app language instead of the device region. / 日期控件及日期显示跟随应用语言，避免英文界面出现中文年月日。
+- Refined ordinary interface translations while preserving professional terms, brand names and Big 4 slogans. / 完善普通界面文案翻译，保留专业术语、品牌名称及 Big 4 slogan。
+
+Version 1.3.1 (build 6) is a localisation-only maintenance update. External testing becomes available after Apple’s beta review; App Store distribution is separate.
+1.3.1（版本号 6）仅修复本地化问题。外部测试在 Apple Beta 审核通过后开放；App Store 分发另行处理。
+
+## 1.3 — Available in TestFlight / 已开放 TestFlight
 
 A clearer view of your pay, your time and your earnings benchmark.
 更清晰地看见工资、时间投入与全国工资参考。
@@ -27,8 +39,8 @@ A clearer view of your pay, your time and your earnings benchmark.
 - Work Value uses consistent “working day” terminology in English and Chinese. / 工作回报统一使用中英文“工作日／working day”表述。
 - The result card explicitly shows an annual after-tax assessment estimate including tax-return deductions. Monthly, fortnightly and weekly amounts are annual averages, not PAYG payslip calculations; deduction impacts are distinguished from refunds. / 结果卡明确标为含报税扣除的年度税后估算；月、双周及周金额标为全年平均，区别于工资单 PAYG 实发，扣除影响也不等同于实际退税额。
 
-These changes are being developed for 1.3 and are not part of the submitted 1.2 build. Availability will be updated when the release is distributed.
-以上为 1.3 开发中的变更，不属于已提交的 1.2 版本；正式分发后会更新可用状态。
+Version 1.3 (build 5) is available to the external TestFlight group. App Store availability is separate.
+1.3（版本号 5）已开放给外部 TestFlight 测试组；App Store 上架状态另行确认。
 
 ## 1.2 — Submitted build / 已提交版本
 

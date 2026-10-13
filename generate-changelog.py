@@ -20,7 +20,7 @@ extra='''
 def bilingual(tag,en,zh,css=''):
  return f'<{tag} class="en {css}">{escape(en)}</{tag}><{tag} class="zh {css}">{escape(zh)}</{tag}>'
 sections=[]
-md=['# PayCalculator AU — Release history / 更新日志','',f'Last updated / 更新日期: {data["updated"]}', '', 'The 1.3 entry is in development, not released. / 1.3 为开发中，尚未发布。','']
+md=['# PayCalculator AU — Release history / 更新日志','',f'Last updated / 更新日期: {data["updated"]}', '', 'Release availability is listed for each version. / 每个版本分别标明分发状态。','']
 for release in data['releases']:
  v=escape(release['version'])
  heading=f'<div class="release-heading"><h2>v{v}</h2>'+bilingual('span',release['status_en'],release['status_zh'],'status')+'</div>'
