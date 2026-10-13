@@ -24,6 +24,9 @@
     h3 { margin-bottom: 6px; }
     p, li { line-height: 1.65; }
     .muted { color: #52686d; font-size: .94rem; }
+    .coffee-button { display: inline-flex; padding: 12px 20px; border-radius: 14px; background: #5546C6; color: white; font-weight: 650; text-decoration: none; }
+    .coffee-button[hidden] { display: none; }
+    .coffee-button:focus-visible { outline: 3px solid #B9B0FF; outline-offset: 3px; }
     footer { padding: 20px 24px 32px; text-align: center; color: #52686d; }
     body[data-language="en"] .zh, body[data-language="zh"] .en { display: none; }
     @media (prefers-color-scheme: dark) {
@@ -46,8 +49,21 @@
     <nav aria-label="Site navigation">
       <a href="#privacy"><span class="en">Privacy</span><span class="zh">隐私政策</span></a>
       <a href="#support"><span class="en">Support</span><span class="zh">支持</span></a>
+      <a href="#support-development"><span class="en">☕ Support development</span><span class="zh">☕ 支持开发</span></a>
       <a id="changelog-link" href="changelog.html"><span class="en">What's new</span><span class="zh">更新日志</span></a>
     </nav>
+    <section id="support-development">
+      <h2 class="en">☕ Support PayCalculator AU</h2>
+      <h2 class="zh">☕ 支持 PayCalculator AU</h2>
+      <p class="en">If the calculator helped you understand your pay or working time, you can buy me a coffee to support ongoing maintenance and data updates.</p>
+      <p class="zh">如果计算器帮你更清楚地了解工资或工作回报，可以请我喝杯咖啡，支持持续维护与数据更新。</p>
+      <p class="muted en">Entirely optional. A one-time contribution does not unlock features or change your calculations.</p>
+      <p class="muted zh">完全自愿，单次支持不会解锁功能，也不会改变计算结果。</p>
+      <a id="stripe-support" class="coffee-button" target="_blank" rel="noopener" hidden><span class="en">Buy me a coffee ↗</span><span class="zh">请我喝杯咖啡 ↗</span></a>
+      <p id="stripe-pending"><span class="en">Online support payments will be available once setup is complete.</span><span class="zh">在线支持入口将在收款设置完成后开放。</span></p>
+      <p class="muted en">Payments open on Stripe. No salary, deduction or work-record data is sent with this link. Stripe handles payment details under its own privacy policy.</p>
+      <p class="muted zh">付款将在 Stripe 页面完成；此链接不发送工资、扣除或工作记录。付款信息由 Stripe 按其隐私政策处理。</p>
+    </section>
     <section id="privacy">
       <p class="muted en">Privacy Policy · Last updated 10 October 2026</p>
       <p class="muted zh">隐私政策 · 更新日期：2026年10月10日</p>
@@ -111,6 +127,13 @@
     <span class="zh">PayCalculator AU · 澳大利亚</span>
   </footer>
   <script>
+    const STRIPE_SUPPORT_URL = "https://buy.stripe.com/00w00jcY30Mi6hkgGjbQY00";
+    if (/^https:\/\/(?:buy|donate)\.stripe\.com\//.test(STRIPE_SUPPORT_URL)) {
+      document.getElementById("stripe-support").href = STRIPE_SUPPORT_URL;
+      document.getElementById("stripe-support").hidden = false;
+      document.getElementById("stripe-pending").hidden = true;
+    }
+    if (new URLSearchParams(location.search).get("lang") === "zh") switchLanguage();
     function switchLanguage() {
       const page = document.body;
       const next = page.dataset.language === "en" ? "zh" : "en";
