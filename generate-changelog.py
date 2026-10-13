@@ -15,6 +15,7 @@ extra='''
 .feedback-link.secondary { background:transparent; color:#5546C6; border:1px solid #B9B0FF; }
 @media (prefers-color-scheme:dark) { .feedback-link.secondary { color:#C9C1FF; } }
 .feedback-link { display:inline-block; border-radius:12px; padding:12px 18px; background:#5546C6; color:white; text-decoration:none; font-weight:600; }
+.beta-calculator { margin-top:12px; }
 @media (prefers-color-scheme:dark) { .status { background:#393052; color:#C9C1FF; } }
 '''
 def bilingual(tag,en,zh,css=''):
@@ -39,7 +40,7 @@ feedback+='<p><a href="https://github.com/goldman-stanley/paycalculator-au-pages
 feedback+=bilingual('p','Include your app version for bug reports. Please avoid personal tax or bank details.','报告问题时请附应用版本，勿附个人税号或银行资料。','muted')
 html=f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="PayCalculator AU release history, new features and feedback."><link rel="icon" type="image/png" href="app-icon.png"><title>PayCalculator AU — What's new</title><style>{style}{extra}</style></head>
-<body data-language="en"><header><button class="language" type="button" aria-label="Switch language" onclick="switchLanguage()">中文</button><img class="brand-icon" src="app-icon.png" alt="" width="64" height="64"><h1>PayCalculator AU</h1>{bilingual('p',"What's new",'更新日志')}</header>
+<body data-language="en"><header><button class="language" type="button" aria-label="Switch language" onclick="switchLanguage()">中文</button><img class="brand-icon" src="app-icon.png" alt="" width="64" height="64"><h1>PayCalculator AU</h1>{bilingual('p',"What's new",'更新日志')}<a class="feedback-link beta-calculator" href="https://goldman-stanley.github.io/paycalculatorau/"><span class="en">Open Web Beta calculator →</span><span class="zh">打开网页版计算器 Beta →</span></a></header>
 <main><nav aria-label="Site navigation"><a href="index.html#privacy"><span class="en">Privacy</span><span class="zh">隐私</span></a><a href="index.html#support"><span class="en">Support</span><span class="zh">支持</span></a><a href="#feedback"><span class="en">Ideas & feedback</span><span class="zh">需求与反馈</span></a></nav>{bilingual('p','Release history · Updated '+data['updated'],'版本记录 · 更新日期 '+data['updated'],'muted')}
 {''.join(sections)}
 <section id="feedback">{feedback}</section></main><footer>PayCalculator AU · Australia</footer>
