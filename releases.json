@@ -1,11 +1,50 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-11-04",
   "releases": [
     {
+      "version": "1.3.2",
+      "status": "preparing",
+      "status_en": "In preparation",
+      "status_zh": "准备中",
+      "summary_en": "Responsive layouts and more reliable number editing. App Store approval and release are pending.",
+      "summary_zh": "改善自适应布局及数字编辑可靠性，尚待提交审核和正式发布。",
+      "features": [
+        {
+          "en": "Includes the language and date-display fixes from 1.3.1.",
+          "zh": "包含 1.3.1 的语言与日期显示修复。"
+        },
+        {
+          "en": "Wide windows place inputs and results in columns; narrow windows keep a compact layout.",
+          "zh": "宽窗口分栏显示输入与结果，窄窗口保留紧凑布局。"
+        },
+        {
+          "en": "Number fields preserve decimals and incomplete edits without reformatting while you type.",
+          "zh": "数字输入保留小数和编辑过程，不在输入途中强制重新格式化。"
+        },
+        {
+          "en": "iOS 27 and iPhone Duo verification, and screenshots for all five tabs, are in progress.",
+          "zh": "正在验证 iOS 27、iPhone Duo，并准备五个标签页的商店截图。"
+        },
+        {
+          "en": "Calculation rules are unchanged.",
+          "zh": "计算规则保持不变。"
+        }
+      ]
+    },
+    {
+      "version": "Web Beta 1.3.2",
+      "status": "released",
+      "status_en": "Available on the web",
+      "status_zh": "网页已上线",
+      "summary_en": "Aligned version labels, narrow-screen layouts and direct App Store installation, with a separate TestFlight option.",
+      "summary_zh": "统一版本标识、改善窄屏布局，提供正式 App Store 下载及独立 TestFlight 入口。",
+      "features": []
+    },
+    {
       "version": "1.3.1",
-      "status": "testflight_uploaded",
-      "status_en": "Uploaded to TestFlight",
-      "status_zh": "已上传 TestFlight",
+      "status": "beta",
+      "status_en": "Available in TestFlight",
+      "status_zh": "已开放 TestFlight",
       "summary_en": "English and Chinese localisation fixes. No new features or changes to calculation rules.",
       "summary_zh": "修复中英文界面本地化问题，无新增功能或计算规则变更。",
       "features": [
@@ -22,14 +61,14 @@
           "zh": "完善普通界面文案翻译，保留专业术语、品牌名称及 Big 4 slogan。"
         }
       ],
-      "note_en": "Version 1.3.1 (build 6) is a localisation-only maintenance update. External testing becomes available after Apple’s beta review; App Store distribution is separate.",
-      "note_zh": "1.3.1（版本号 6）仅修复本地化问题。外部测试在 Apple Beta 审核通过后开放；App Store 分发另行处理。"
+      "note_en": "Version 1.3.1 (build 6) is a localisation-only maintenance update. Available to external testers; not released on the App Store.",
+      "note_zh": "1.3.1（版本号 6）仅修复本地化问题。已开放外部测试；此版本尚未在 App Store 发布。"
     },
     {
       "version": "1.3",
-      "status": "beta",
-      "status_en": "Available in TestFlight",
-      "status_zh": "已开放 TestFlight",
+      "status": "released",
+      "status_en": "Available on the App Store",
+      "status_zh": "App Store 已上线",
       "summary_en": "A clearer view of your pay, your time and your earnings benchmark.",
       "summary_zh": "更清晰地看见工资、时间投入与全国工资参考。",
       "features": [
@@ -98,12 +137,12 @@
           "zh": "工作回报统一使用中英文“工作日／working day”表述。"
         },
         {
-          "en": "The result card explicitly shows an annual after-tax assessment estimate including tax-return deductions. Monthly, fortnightly and weekly amounts are annual averages, not PAYG payslip calculations; deduction impacts are distinguished from refunds.",
-          "zh": "结果卡明确标为含报税扣除的年度税后估算；月、双周及周金额标为全年平均，区别于工资单 PAYG 实发，扣除影响也不等同于实际退税额。"
+          "en": "The result card defaults to regular PAYG payslip estimates, with a separate switch for annual after-tax-return estimates.",
+          "zh": "结果卡默认呈现正常 PAYG 工资单估算，通过独立开关切换年度报税后估算。"
         }
       ],
-      "note_en": "Version 1.3 (build 5) is available to the external TestFlight group. App Store availability is separate.",
-      "note_zh": "1.3（版本号 5）已开放给外部 TestFlight 测试组；App Store 上架状态另行确认。"
+      "note_en": "Version 1.3 (build 5) was released on the App Store on 3 November 2026. TestFlight distribution remains separate.",
+      "note_zh": "1.3（版本号 5）于 2026 年 11 月 3 日在 App Store 上线；TestFlight 分发另行管理。"
     },
     {
       "version": "1.2",

@@ -1,10 +1,27 @@
 # PayCalculator AU — Release history / 更新日志
 
-Last updated / 更新日期: 2026-10-14
+Last updated / 更新日期: 2026-11-04
 
 Release availability is listed for each version. / 每个版本分别标明分发状态。
 
-## 1.3.1 — Uploaded to TestFlight / 已上传 TestFlight
+## 1.3.2 — In preparation / 准备中
+
+Responsive layouts and more reliable number editing. App Store approval and release are pending.
+改善自适应布局及数字编辑可靠性，尚待提交审核和正式发布。
+
+- Includes the language and date-display fixes from 1.3.1. / 包含 1.3.1 的语言与日期显示修复。
+- Wide windows place inputs and results in columns; narrow windows keep a compact layout. / 宽窗口分栏显示输入与结果，窄窗口保留紧凑布局。
+- Number fields preserve decimals and incomplete edits without reformatting while you type. / 数字输入保留小数和编辑过程，不在输入途中强制重新格式化。
+- iOS 27 and iPhone Duo verification, and screenshots for all five tabs, are in progress. / 正在验证 iOS 27、iPhone Duo，并准备五个标签页的商店截图。
+- Calculation rules are unchanged. / 计算规则保持不变。
+
+## Web Beta 1.3.2 — Available on the web / 网页已上线
+
+Aligned version labels, narrow-screen layouts and direct App Store installation, with a separate TestFlight option.
+统一版本标识、改善窄屏布局，提供正式 App Store 下载及独立 TestFlight 入口。
+
+
+## 1.3.1 — Available in TestFlight / 已开放 TestFlight
 
 English and Chinese localisation fixes. No new features or changes to calculation rules.
 修复中英文界面本地化问题，无新增功能或计算规则变更。
@@ -13,10 +30,10 @@ English and Chinese localisation fixes. No new features or changes to calculatio
 - Date pickers and displayed dates follow the selected app language instead of the device region. / 日期控件及日期显示跟随应用语言，避免英文界面出现中文年月日。
 - Refined ordinary interface translations while preserving professional terms, brand names and Big 4 slogans. / 完善普通界面文案翻译，保留专业术语、品牌名称及 Big 4 slogan。
 
-Version 1.3.1 (build 6) is a localisation-only maintenance update. External testing becomes available after Apple’s beta review; App Store distribution is separate.
-1.3.1（版本号 6）仅修复本地化问题。外部测试在 Apple Beta 审核通过后开放；App Store 分发另行处理。
+Version 1.3.1 (build 6) is a localisation-only maintenance update. Available to external testers; not released on the App Store.
+1.3.1（版本号 6）仅修复本地化问题。已开放外部测试；此版本尚未在 App Store 发布。
 
-## 1.3 — Available in TestFlight / 已开放 TestFlight
+## 1.3 — Available on the App Store / App Store 已上线
 
 A clearer view of your pay, your time and your earnings benchmark.
 更清晰地看见工资、时间投入与全国工资参考。
@@ -37,10 +54,10 @@ A clearer view of your pay, your time and your earnings benchmark.
 - National base-pay rankings show an approximate top/bottom employee percentage alongside the original percentile, preserving bounds and the statistical comparison population. / 全国基本工资排名同时显示直观的雇员前／后百分比与原百分位，保留估算边界和统计比较范围。
 - Tax details add taxable-income and take-home cash waterfall charts without replacing the table. Charts scroll horizontally and offer an enlarged view with zoom and landscape support. / 税务明细新增应税收入与现金到手双路径瀑布图，保留原有表格；支持横向滚动、全屏放大、缩放及横屏查看。
 - Work Value uses consistent “working day” terminology in English and Chinese. / 工作回报统一使用中英文“工作日／working day”表述。
-- The result card explicitly shows an annual after-tax assessment estimate including tax-return deductions. Monthly, fortnightly and weekly amounts are annual averages, not PAYG payslip calculations; deduction impacts are distinguished from refunds. / 结果卡明确标为含报税扣除的年度税后估算；月、双周及周金额标为全年平均，区别于工资单 PAYG 实发，扣除影响也不等同于实际退税额。
+- The result card defaults to regular PAYG payslip estimates, with a separate switch for annual after-tax-return estimates. / 结果卡默认呈现正常 PAYG 工资单估算，通过独立开关切换年度报税后估算。
 
-Version 1.3 (build 5) is available to the external TestFlight group. App Store availability is separate.
-1.3（版本号 5）已开放给外部 TestFlight 测试组；App Store 上架状态另行确认。
+Version 1.3 (build 5) was released on the App Store on 3 November 2026. TestFlight distribution remains separate.
+1.3（版本号 5）于 2026 年 11 月 3 日在 App Store 上线；TestFlight 分发另行管理。
 
 ## 1.2 — Submitted build / 已提交版本
 
