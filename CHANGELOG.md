@@ -4,22 +4,31 @@ Last updated / 更新日期: 2026-11-04
 
 Release availability is listed for each version. / 每个版本分别标明分发状态。
 
-## 1.3.2 — In preparation / 准备中
+## 1.3.2 — Submitted for App Store review / 已提交 App Store 审核
 
-Responsive layouts and more reliable number editing. App Store approval and release are pending.
-改善自适应布局及数字编辑可靠性，尚待提交审核和正式发布。
+Version 1.3.2 (build 7) improves responsive layouts, localisation and numeric editing. Submitted for review; automatic release is enabled after approval.
+1.3.2（版本号 7）改善自适应布局、本地化及数字编辑。已提交正式审核，通过后自动发布。
 
 - Includes the language and date-display fixes from 1.3.1. / 包含 1.3.1 的语言与日期显示修复。
 - Wide windows place inputs and results in columns; narrow windows keep a compact layout. / 宽窗口分栏显示输入与结果，窄窗口保留紧凑布局。
 - Number fields preserve decimals and incomplete edits without reformatting while you type. / 数字输入保留小数和编辑过程，不在输入途中强制重新格式化。
-- iOS 27 and iPhone Duo verification, and screenshots for all five tabs, are in progress. / 正在验证 iOS 27、iPhone Duo，并准备五个标签页的商店截图。
+- Built with the iOS 27.2 SDK. Checked iPhone Duo outer and inner displays, state preservation, standard iPhone and iPad portrait/landscape layouts. / 使用 iOS 27.2 SDK 构建；已检查 Duo 内外屏、切换时的数据保留，以及标准 iPhone 与 iPad 横竖屏布局。
+- Added 30 real screenshots across the iPhone, iPad 13-inch and iPhone Duo groups in English and Simplified Chinese, covering all five tabs. / 为 iPhone、13 英寸 iPad 及 iPhone Duo 提供中英文共 30 张真实新截图，覆盖五个标签页。
 - Calculation rules are unchanged. / 计算规则保持不变。
+
+TestFlight 1.3.2 (build 7) is available in the public beta group, with automatic tester notification enabled. App Store 1.3 remains the released version until 1.3.2 is approved.
+TestFlight 1.3.2（版本号 7）已在公开测试组开放，自动通知已开启。1.3.2 获批前，正式 App Store 仍为 1.3。
 
 ## Web Beta 1.3.2 — Available on the web / 网页已上线
 
 Aligned version labels, narrow-screen layouts and direct App Store installation, with a separate TestFlight option.
 统一版本标识、改善窄屏布局，提供正式 App Store 下载及独立 TestFlight 入口。
 
+- Aligned version labels and improved narrow-screen layouts. / 统一版本标识并改善窄屏布局。
+- Direct App Store installation with a separate TestFlight beta option. / 提供正式 App Store 下载，并保留独立 TestFlight 测试入口。
+
+Web data stays in this browser. Local reminders and native backup/restore remain app-only.
+网页数据存于当前浏览器；本地提醒和原生备份恢复仅 App 支持。
 
 ## 1.3.1 — Available in TestFlight / 已开放 TestFlight
 

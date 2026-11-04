@@ -24,7 +24,7 @@ sections=[]
 md=['# PayCalculator AU — Release history / 更新日志','',f'Last updated / 更新日期: {data["updated"]}', '', 'Release availability is listed for each version. / 每个版本分别标明分发状态。','']
 for release in data['releases']:
  v=escape(release['version'])
- heading=f'<div class="release-heading"><h2>v{v}</h2>'+bilingual('span',release['status_en'],release['status_zh'],'status')+'</div>'
+ heading=f'<div class="release-heading"><h2>{v if v.startswith("Web") else "v"+v}</h2>'+bilingual('span',release['status_en'],release['status_zh'],'status')+'</div>'
  content=bilingual('p',release['summary_en'],release['summary_zh'])
  content+='<ul>'+''.join('<li><span class="en">'+escape(f['en'])+'</span><span class="zh">'+escape(f['zh'])+'</span></li>' for f in release['features'])+'</ul>'
  if release.get('note_en'): content+=bilingual('p',release['note_en'],release['note_zh'],'muted note')

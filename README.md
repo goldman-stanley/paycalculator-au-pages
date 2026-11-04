@@ -11,7 +11,7 @@ Bilingual information hosted with GitHub Pages.
 
 Keep `releases.json` as the single source of truth. Add new features and fixes to the development version after each change. Mark a version distributed only after its actual release is confirmed. Do not invent release dates. Run `python3 generate-changelog.py` to update `changelog.html` and `CHANGELOG.md`, then commit the generated files with the data change.
 
-The privacy and support page currently documents submitted version 1.2. Version 1.3 is clearly marked in development on the history page.
+App Store 1.3 is released. Version 1.3.2 (7) is available in public TestFlight and submitted for App Store review with automatic release after approval. Web Beta 1.3.2 is live at https://goldman-stanley.github.io/paycalculatorau/. See the release history for channel availability.
 
 ## Feedback
 
