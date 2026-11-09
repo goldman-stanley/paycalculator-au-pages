@@ -1,13 +1,65 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-09",
   "releases": [
     {
-      "version": "1.3.2",
+      "version": "1.4 Beta",
+      "status": "beta",
+      "status_en": "Web live · iOS beta distribution in progress",
+      "status_zh": "网页已上线 · iOS Beta 分发进行中",
+      "summary_en": "Usability beta: clearer calculation bases, a reorganised Work Value page and consistent scenario comparison. iOS builds 9–10 is distributed through TestFlight only; 1.4 has not been submitted to the App Store.",
+      "summary_zh": "交互优化 Beta：统一计算口径、整理工作回报页面及方案比较。iOS 版本号 9–10 仅通过 TestFlight 测试，1.4 未提交 App Store。",
+      "features": [
+        {
+          "en": "Explicit Payslip pay and Annual after tax selectors in Salary and saved comparisons, with a common pay cycle.",
+          "zh": "工资页及已保存方案比较明确区分“工资单到手／年度报税后”，工资单比较采用共同发薪周期。"
+        },
+        {
+          "en": "Work Value separates Annual forecast from Actual records, shows the income basis and groups annual plan inputs.",
+          "zh": "工作回报分为年度预测与实际记录，明确收入口径，并集中年度计划设置。"
+        },
+        {
+          "en": "Temporary waterfall edits can be saved as a separate scenario or discarded; main inputs stay unchanged.",
+          "zh": "瀑布图临时修改可保存为独立方案或放弃，不覆盖首页输入。"
+        },
+        {
+          "en": "Visible Theme label; low-frequency sources, backup and version tools are grouped in More. Calculation notes are collapsed.",
+          "zh": "主题入口显示文字；来源、备份、版本等低频工具集中于更多菜单，完整计算说明折叠展示。"
+        },
+        {
+          "en": "Release build startup and numeric-editing checks retained. Calculation rules and existing data formats are unchanged.",
+          "zh": "保留 Release 启动与数字编辑检查；计算规则及原有存储格式不变。"
+        },
+        {
+          "en": "Build 10 restores the same salary in Salary and Work Value after relaunch, clears outdated forecasts when pay is cleared, and shows the gross annual input used for effective hourly value.",
+          "zh": "版本号 10 修复重启后首页与工作回报的工资恢复不一致；清空工资后不再沿用旧预测，并显示有效时薪引用的税前年薪。"
+        }
+      ],
+      "note_en": "Web Beta 1.4 is live. Build 9 was submitted for external TestFlight review on 5 November; build 10 adds the salary-state fix. Its upload and tester distribution are in progress. 1.4 has not been submitted to the App Store.",
+      "note_zh": "网页版 1.4 Beta 已上线。版本号 9 于 11 月 5 日提交 TestFlight 外部测试审核；版本号 10 增加工资状态修复，上传与测试分发进行中。1.4 未提交 App Store。"
+    },
+    {
+      "version": "1.3.3",
       "status": "submitted",
       "status_en": "Submitted for App Store review",
       "status_zh": "已提交 App Store 审核",
-      "summary_en": "Version 1.3.2 (build 7) improves responsive layouts, localisation and numeric editing. Submitted for review; automatic release is enabled after approval.",
-      "summary_zh": "1.3.2（版本号 7）改善自适应布局、本地化及数字编辑。已提交正式审核，通过后自动发布。",
+      "summary_en": "Startup-crash fix for affected devices on iOS 27.0.1. The affected user confirmed TestFlight build 8 opens normally on the same iPhone 17 Pro.",
+      "summary_zh": "修复部分 iOS 27.0.1 设备启动闪退；用户已确认 TestFlight 版本号 8 在原故障 iPhone 17 Pro 上正常打开。",
+      "features": [
+        {
+          "en": "Bounds nested SwiftUI screen metadata; calculation rules and saved-data formats are unchanged.",
+          "zh": "缩短 SwiftUI 界面类型嵌套；计算规则及存储格式不变。"
+        }
+      ],
+      "note_en": "Submitted with automatic App Store release after approval; this is separate from the 1.4 usability beta.",
+      "note_zh": "已提交正式审核，通过后自动发布；与 1.4 交互优化 Beta 分开。"
+    },
+    {
+      "version": "1.3.2",
+      "status": "released",
+      "status_en": "Released on the App Store",
+      "status_zh": "App Store 已发布",
+      "summary_en": "Version 1.3.2 (build 7) was approved and released. A subsequent startup crash reported on iOS 27.0.1 is addressed by the separate 1.3.3 patch.",
+      "summary_zh": "1.3.2（版本号 7）已获批并发布；后续发现的 iOS 27.0.1 启动闪退由独立的 1.3.3 修复版处理。",
       "features": [
         {
           "en": "Includes the language and date-display fixes from 1.3.1.",
@@ -34,8 +86,8 @@
           "zh": "计算规则保持不变。"
         }
       ],
-      "note_en": "TestFlight 1.3.2 (build 7) is available in the public beta group, with automatic tester notification enabled. App Store 1.3 remains the released version until 1.3.2 is approved.",
-      "note_zh": "TestFlight 1.3.2（版本号 7）已在公开测试组开放，自动通知已开启。1.3.2 获批前，正式 App Store 仍为 1.3。"
+      "note_en": "See 1.3.3 for the startup-crash fix and its distribution status.",
+      "note_zh": "启动闪退修复及分发状态请参阅 1.3.3。"
     },
     {
       "version": "Web Beta 1.3.2",
