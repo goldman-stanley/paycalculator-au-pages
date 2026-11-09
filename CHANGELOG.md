@@ -6,8 +6,8 @@ Release availability is listed for each version. / 每个版本分别标明分�
 
 ## 1.4 Beta — Web live · iOS beta distribution in progress / 网页已上线 · iOS Beta 分发进行中
 
-Usability beta: clearer calculation bases, a reorganised Work Value page and consistent scenario comparison. iOS builds 9–10 is distributed through TestFlight only; 1.4 has not been submitted to the App Store.
-交互优化 Beta：统一计算口径、整理工作回报页面及方案比较。iOS 版本号 9–10 仅通过 TestFlight 测试，1.4 未提交 App Store。
+Usability beta: clearer calculation bases, a reorganised Work Value page and consistent scenario comparison. iOS builds 9–11 is distributed through TestFlight only; 1.4 has not been submitted to the App Store.
+交互优化 Beta：统一计算口径、整理工作回报页面及方案比较。iOS 版本号 9–11 仅通过 TestFlight 测试，1.4 未提交 App Store。
 
 - Explicit Payslip pay and Annual after tax selectors in Salary and saved comparisons, with a common pay cycle. / 工资页及已保存方案比较明确区分“工资单到手／年度报税后”，工资单比较采用共同发薪周期。
 - Work Value separates Annual forecast from Actual records, shows the income basis and groups annual plan inputs. / 工作回报分为年度预测与实际记录，明确收入口径，并集中年度计划设置。
@@ -16,18 +16,18 @@ Usability beta: clearer calculation bases, a reorganised Work Value page and con
 - Release build startup and numeric-editing checks retained. Calculation rules and existing data formats are unchanged. / 保留 Release 启动与数字编辑检查；计算规则及原有存储格式不变。
 - Build 10 restores the same salary in Salary and Work Value after relaunch, clears outdated forecasts when pay is cleared, and shows the gross annual input used for effective hourly value. / 版本号 10 修复重启后首页与工作回报的工资恢复不一致；清空工资后不再沿用旧预测，并显示有效时薪引用的税前年薪。
 
-Web Beta 1.4 is live. Build 9 was submitted for external TestFlight review on 5 November; build 10 adds the salary-state fix. Its upload and tester distribution are in progress. 1.4 has not been submitted to the App Store.
-网页版 1.4 Beta 已上线。版本号 9 于 11 月 5 日提交 TestFlight 外部测试审核；版本号 10 增加工资状态修复，上传与测试分发进行中。1.4 未提交 App Store。
+Web Beta 1.4 is live. Build 9 was submitted for external TestFlight review on 5 November; build 10 fixes salary restoration, and build 11 also removes a misleading empty-salary message. Latest beta upload and public-group distribution are in progress. 1.4 has not been submitted to the App Store.
+网页版 1.4 Beta 已上线。版本号 9 于 11 月 5 日提交 TestFlight 外部测试审核；10 修复工资恢复，11 同时移除清空工资后的误导提示。最新测试包上传与公开组分发进行中。1.4 未提交 App Store。
 
-## 1.3.3 — Submitted for App Store review / 已提交 App Store 审核
+## 1.3.3 — Submitted on 5 November 2026 / 2026 年 11 月 5 日已送审
 
 Startup-crash fix for affected devices on iOS 27.0.1. The affected user confirmed TestFlight build 8 opens normally on the same iPhone 17 Pro.
 修复部分 iOS 27.0.1 设备启动闪退；用户已确认 TestFlight 版本号 8 在原故障 iPhone 17 Pro 上正常打开。
 
 - Bounds nested SwiftUI screen metadata; calculation rules and saved-data formats are unchanged. / 缩短 SwiftUI 界面类型嵌套；计算规则及存储格式不变。
 
-Submitted with automatic App Store release after approval; this is separate from the 1.4 usability beta.
-已提交正式审核，通过后自动发布；与 1.4 交互优化 Beta 分开。
+Submitted with automatic App Store release after approval. This records the 5 November submission; check the App Store for current availability. Separate from the 1.4 usability beta.
+提交时设置为获批后自动发布；此处记录 11 月 5 日送审事件，当前可用版本请查看 App Store。与 1.4 交互优化 Beta 分开。
 
 ## 1.3.2 — Released on the App Store / App Store 已发布
 
