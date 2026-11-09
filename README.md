@@ -11,7 +11,7 @@ Bilingual information hosted with GitHub Pages.
 
 Keep `releases.json` as the single source of truth. Add new features and fixes to the development version after each change. Mark a version distributed only after its actual release is confirmed. Do not invent release dates. Run `python3 generate-changelog.py` to update `changelog.html` and `CHANGELOG.md`, then commit the generated files with the data change.
 
-App Store 1.3.2 is released; 1.3.3 (8) is a separate startup-crash fix awaiting review. Web 1.4 Beta is live; iOS 1.4 is TestFlight-only: build 9 was submitted for external review on 5 November, and build 10 adds the salary-state fix with distribution in progress. No App Store submission was created for 1.4. See the release history for channel availability.
+App Store 1.3.3 is released. Web 1.4 Beta is live, and iOS 1.4 (11) is Testing in the public TestFlight group with automatic notifications enabled. No App Store submission was created for 1.4. See the release history for channel availability.
 
 ## Feedback
 

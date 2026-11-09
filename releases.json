@@ -4,10 +4,10 @@
     {
       "version": "1.4 Beta",
       "status": "beta",
-      "status_en": "Web live · iOS beta distribution in progress",
-      "status_zh": "网页已上线 · iOS Beta 分发进行中",
-      "summary_en": "Usability beta: clearer calculation bases, a reorganised Work Value page and consistent scenario comparison. iOS builds 9–11 is distributed through TestFlight only; 1.4 has not been submitted to the App Store.",
-      "summary_zh": "交互优化 Beta：统一计算口径、整理工作回报页面及方案比较。iOS 版本号 9–11 仅通过 TestFlight 测试，1.4 未提交 App Store。",
+      "status_en": "Available on TestFlight and the web",
+      "status_zh": "TestFlight 与网页已开放",
+      "summary_en": "Usability beta: clearer calculation bases, reorganised Work Value and consistent scenario comparison. Latest iOS build 11 is available to the public TestFlight group; 1.4 has not been submitted to the App Store.",
+      "summary_zh": "交互优化 Beta：统一计算口径、整理工作回报及方案比较。最新 iOS 版本号 11 已向公开 TestFlight 测试组开放；1.4 未提交 App Store。",
       "features": [
         {
           "en": "Explicit Payslip pay and Annual after tax selectors in Salary and saved comparisons, with a common pay cycle.",
@@ -34,14 +34,14 @@
           "zh": "版本号 10 修复重启后首页与工作回报的工资恢复不一致；清空工资后不再沿用旧预测，并显示有效时薪引用的税前年薪。"
         }
       ],
-      "note_en": "Web Beta 1.4 is live. Build 9 was submitted for external TestFlight review on 5 November; build 10 fixes salary restoration, and build 11 also removes a misleading empty-salary message. Latest beta upload and public-group distribution are in progress. 1.4 has not been submitted to the App Store.",
-      "note_zh": "网页版 1.4 Beta 已上线。版本号 9 于 11 月 5 日提交 TestFlight 外部测试审核；10 修复工资恢复，11 同时移除清空工资后的误导提示。最新测试包上传与公开组分发进行中。1.4 未提交 App Store。"
+      "note_en": "Build 11 shows Testing in My Testing and PayCalculatorAU Beta 1. Automatic tester notification is enabled. Build 10 is superseded by 11; build 9 remains an earlier beta. Web Beta 1.4 is live. App Store 1.3.3 remains separate.",
+      "note_zh": "版本号 11 已在 My Testing 与 PayCalculatorAU Beta 1 显示 Testing，自动通知已开启。10 由 11 接替，9 为早期 Beta。网页版 1.4 已上线；App Store 1.3.3 与本次 Beta 分开。"
     },
     {
       "version": "1.3.3",
-      "status": "submitted",
-      "status_en": "Submitted on 5 November 2026",
-      "status_zh": "2026 年 11 月 5 日已送审",
+      "status": "released",
+      "status_en": "Released on the App Store",
+      "status_zh": "App Store 已发布",
       "summary_en": "Startup-crash fix for affected devices on iOS 27.0.1. The affected user confirmed TestFlight build 8 opens normally on the same iPhone 17 Pro.",
       "summary_zh": "修复部分 iOS 27.0.1 设备启动闪退；用户已确认 TestFlight 版本号 8 在原故障 iPhone 17 Pro 上正常打开。",
       "features": [
@@ -50,8 +50,8 @@
           "zh": "缩短 SwiftUI 界面类型嵌套；计算规则及存储格式不变。"
         }
       ],
-      "note_en": "Submitted with automatic App Store release after approval. This records the 5 November submission; check the App Store for current availability. Separate from the 1.4 usability beta.",
-      "note_zh": "提交时设置为获批后自动发布；此处记录 11 月 5 日送审事件，当前可用版本请查看 App Store。与 1.4 交互优化 Beta 分开。"
+      "note_en": "App Store Connect confirmed 1.3.3 Ready for Distribution on 9 November. Separate from the TestFlight-only 1.4 usability beta.",
+      "note_zh": "11 月 9 日核对 App Store Connect，1.3.3 为 Ready for Distribution。与仅供 TestFlight 的 1.4 交互优化 Beta 分开。"
     },
     {
       "version": "1.3.2",
