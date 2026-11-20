@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://goldman-stanley.github.io/paycalculator-au-pages/sitemap.xml
